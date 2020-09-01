@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Jquery training</title>
+</head>
+<body>
+    <h1>salut suis DK-codeur j'apprends jquery-3</h1>
+
+    <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat exercitationem dolorem neque minima</p>
+    <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat exercitationem dolorem neque minima vero facere eum, mollitia, accusantium animi nisi, minus praesentium. Harum magnam perspiciatis quam, tempore est cupiditate accusamus.</p>
+    
+    <fieldset id="fls">
+        <label for="prenoms">fo gbôssô ton nom : </label>
+        <input type="text" name="prenoms" id="prenoms">
+        <button id="btnT">trigger</button>
+        <button id="btnTh">triggerHandler</button>
+        <button id="btnO">off click</button>
+    </fieldset>
+    <p>votre derniere caratere taper est : <span id="dcaract"></span></p>
+
+    <p>
+        <h3>type of event: <span id="typeE"></span></h3>
+        <h3 id="text">test me and get the type of my event</h3>
+    </p>
+
+    <p>
+        <form id="myform">
+            <select id="liste">
+                <option value="c1" selected>choix1</option>
+                <option value="c2">choix2</option>
+                <option value="c2">choix3</option>
+                <option value="c2">choix4</option>
+            </select>
+            <input type="submit" value="Envoyer">
+        </form>
+    </p>
+
+    <h3>Manipulation du DOM</h3>
+    <span id="test"></span>
+
+    <p>
+        <label for="nom">Entre votre nom : </label>
+        <input type="text" name="nom" id="nom">
+        <span id="sp1"></span>
+    </p>
+
+    <p>
+        <select id="mylist" multiple>
+            <option>option 1</option>
+            <option>option 2</option>
+            <option>option 3</option>
+            <option>option 4</option>   
+        </select>
+        <span id="sp2"></span>
+    </p>
+
+    <p>
+        <h2>attr() using</h2>
+        <h4 class="monAttribut"></h4>
+        <span id="valAttr"></span> <br>
+
+        <a>mon super lien</a>
+    </p>
+
+    <p>
+        <h2>prop()</h2>
+        <label for="c"></label>
+        <input type="checkbox" checked id="c"> <br>
+        <span id="sp3"></span>
+    </p>
+
+    <p>
+        <h2>append() / prepend()</h2>
+        <p id="p1">paragraph 1</p>
+        <p id="p2">paragraph 2</p>
+
+        <button id="b1">utiliser append()</button>
+        <button id="b2">utiliser prepend()</button>
+    </p>
+
+    <p>
+        <h2>remove()</h2>
+        <div id="div1" style="border: 2px green solid; margin: 5px;">
+            <p>paragraph 1 div1</p>
+            <p>paragraph 2 div1</p>
+        </div>
+
+        <div id="div2" style="border: 2px orange solid; margin: 5px;">
+            <p>paragraph 1 div2</p>
+            <p>paragraph 2 div2</p>
+        </div>
+
+        <button id="btn1">remove div1</button>
+        <button id="btn2">empty div2</button>
+
+    </p>
+
+    <p>
+        <h2>removeAttr(), removeProp()...</h2>
+        <div>visiter mon super <a href="file:///F:/VS%20CODE/NaN/PROJET%20BOOTSTRAP/index.html" id="lien">site</a> pour plus de contenu</div>
+        <button id="removeAttr">removeAttr</button>
+    </p>
+
+    <p>
+        <h2>replaceWith</h2>
+        <p class="para1">premier paragraphe</p>
+        <p class="para2">premier paragraphe</p>
+        <button id="bt1">replaceWith</button>
+        <span id="sp4"></span>
+    </p>
+
+    <p>
+        <h2>addClass()</h2>
+        <div id="monDiv">
+            <p>contenu 1</p>
+            <p>contenu 2</p>
+        </div>
+        <button id="bt2">addClass</button>
+    </p>
+
+    <p>
+        <h2>Animation jquery</h2>
+        <h1 id="Tex">Du texte à affiché ou caché</h1>
+        <button id="btnAnim1">show anim</button>
+        <button id="btnAnim2">hide anime</button>
+        <button id="btnAnim3">toggle anime</button> <br><br>
+
+        <button id="btnAnim4">fadeOut anime</button>
+        <button id="btnAnim5">fadeIn anime</button>
+        <button id="btnAnim6">fade toggle</button>
+        <button id="btnAnim7">fade To</button> <br><br>
+
+        <button id="btnAnim8">slide up</button>
+        <button id="btnAnim9">slide down</button>
+        <button id="btnAnim10">slide toggle</button> <br><br>
+
+        <button id="btnAnim11">Rendre petit le bloc</button>
+        <button id="btnAnim12">Diminuer le sizedu text</button>
+        <button id="btnAnim13">Decale le bloc</button>
+        <button id="btnAnim14">Animate</button>
+    </p>
+
+    <p>
+        <h2>animer la div</h2>
+        <div id="anim">anime me</div>
+        <button id="btnAnim15">Animer la div</button>
+        <button id="btnAnim16">stoper la div</button>
+        <!-- <p>taille de la queue <span id="spa1"></span></p> -->
+    </p>
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script> <!--jquery slim-->
+    <script src="js/jquery-3.2.1.min.js"></script>  <!--jquery -->
+    <script src="js/script.js"></script>
+</body>
+</html>
